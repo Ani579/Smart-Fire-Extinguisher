@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# YOLO models (large binary files)
+*.pt
+
+# Datasets
+fire-detection.v1i.yolov8/
+runs/
