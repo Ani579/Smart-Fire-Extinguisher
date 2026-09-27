@@ -5,8 +5,8 @@ import socket
 from ultralytics import YOLO
 
 # Configuration
-MAIN_MODEL_PATH = "yolov8s.pt"  # In a real scenario, this could be a cloud API or a heavy local model
-LIGHT_MODEL_PATH = "yolov8n.pt" # Local light model
+MAIN_MODEL_PATH = "fire_model.pt"  # A heavier model could be placed here later
+LIGHT_MODEL_PATH = "fire_model.pt" # Local light model
 WIFI_CHECK_INTERVAL = 2.0       # Check every 2 seconds
 WIFI_TIMEOUT = 5.0              # 5 seconds time limit to switch
 PING_HOST = "8.8.8.8"           # Google DNS to check internet
